@@ -34,7 +34,7 @@ int main(){
     printf("Número de Pontos Turísticos: %d\n", numero_de_pontos_turisticos1);
     printf("Densidade Populacional: %.2f\n", densidade_populacional1);
     printf("PIB per Capita: %.2f\n", PIB_per_capita1);
-    printf("Super trunfo: %.1lf\n", (população1 + área1 + PIB1 + número_de_pontos_turísticos1));
+    printf("Super trunfo: %.1lf\n", (população1 + área1 + PIB1 + numero_de_pontos_turisticos1));
 
     // Exibindo os dados da cidade2
     printf("\nDados da Cidade 2:\n");
@@ -47,7 +47,7 @@ int main(){
     printf("Número de Pontos Turísticos: %d\n", numero_de_pontos_turisticos2);
     printf("Densidade Populacional: %.2f\n", densidade_populacional2);
     printf("PIB per Capita: %.2f\n", PIB_per_capita2);
-    printf("Super trunfo: %.1lf\n", (população2 + área2 + PIB2 + número_de_pontos_turísticos2));
+    printf("Super trunfo: %.1lf\n", (população2 + área2 + PIB2 + numero_de_pontos_turisticos2));
 
    return 0;
 }
