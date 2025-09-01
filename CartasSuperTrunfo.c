@@ -48,6 +48,35 @@ int main(){
     printf("Densidade Populacional: %.2f\n", densidade_populacional2);
     printf("PIB per Capita: %.2f\n", PIB_per_capita2);
     printf("Super trunfo: %.1lf\n", (população2 + área2 + PIB2 + numero_de_pontos_turisticos2));
+    printf("\n");
 
-   return 0;
-}
+    if(população1 > população2){
+        printf("São Paulo venceu!\n");
+    }         else{
+        printf("Rio de Janeiro venceu!\n");
+    }
+
+    if(área1 > área2){
+        printf("São Paulo venceu!\n");
+    } else {
+        printf("Rio de Janeiro venceu!\n");
+    }
+
+    if(PIB1 > PIB2){
+        printf("São Paulo venceu!\n");
+    } else {
+        printf("Rio de Janeiro venceu!\n");
+    }
+
+    if(densidade_populacional1 < densidade_populacional2){
+        printf("São Paulo venceu!\n");
+    } else {
+        printf("Rio de Janeiro venceu!\n");
+    }
+
+    if(PIB_per_capita1 > PIB_per_capita2){
+        printf("São Paulo venceu!\n");
+    } else {
+        printf("Rio de Janeiro venceu!\n");
+    }
+
