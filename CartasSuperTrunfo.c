@@ -5,7 +5,7 @@ int main(){
     char estado1[50] = "São Paulo";
     char código_da_carta1[50] = "A01";
     char nome_da_cidade1[50] = "São Paulo";
-    int população1 = 12300000;
+    unsigned int população1 = 12300000;
     float área1 = 1214.9;
     float PIB1 = 699.28;
     int numero_de_pontos_turisticos1 = 1000;
@@ -16,7 +16,7 @@ int main(){
     char estado2[50] = "Rio de Janeiro";
     char código_da_carta2[50] = "A02";
     char nome_da_cidade2[50] = "Rio de Janeiro";
-    int população2 = 6000000;
+    unsigned int população2 = 6000000;
     float área2 = 1300.3;
     float PIB2 = 365.56;
     int numero_de_pontos_turisticos2 = 1000;
